@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  border: 2px solid black;
+  width: 20%;
+  padding-right: 4px;
+  padding-left: 4px;
+  font-size: 106%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td:nth-child(even) {
+  text-align: right
+}
+
+td {
+  border-bottom: 1.5px solid black;
+  font-size: .80em;
+  width: 100%;
+}
+
+#specialWrap {
+  white-space: nowrap;
+}
+
+.thickerB {
+  border-bottom: 10px solid black;
+  width: 100%;
+}
+
+h1 {
+text-align: center;
+margin-top: 0px;
+margin-bottom: 14px;
+}
+
+h4 {
+  margin-top: -18px;
+  font-size: .855em;
+  text-decoration: none;
+}
